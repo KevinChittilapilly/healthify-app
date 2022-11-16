@@ -1,5 +1,5 @@
 import { async } from "@firebase/util";
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc,addDoc } from "firebase/firestore";
 import { db } from "../config/FireBaseConfig";
 
 export const getDailyTip = async () => {
@@ -26,7 +26,6 @@ export const getTasks = async () => {
 
 export const updateTask = async (task) => {
   setDoc(doc(db, "Tasks", "being_kevin"),{task}).then(()=>{
-    console.log('done')
   }).catch(()=>{
     console.log('err')
   })

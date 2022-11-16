@@ -6,15 +6,16 @@ import Home from "../screens/Home";
 import Goals from "../screens/Goals";
 import Insights from "../screens/Insights";
 
-const MusicRoute = () => <Home />;
+
+
+const Footer = (props) => {
+  const MusicRoute = () => <Home />;
 
 const AlbumsRoute = () => <DailyReport />;
 
-const RecentsRoute = () => <Goals/>;
+const RecentsRoute = () => <Goals navigation={props.navigation}/>;
 
 const NotificationsRoute = () => <Insights/>;
-
-const Footer = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
     { key: "music", title: "Home", icon: "home" },
@@ -31,6 +32,7 @@ const Footer = () => {
   });
 
   return (
+    <>
     <BottomNavigation
       navigationState={{ index, routes }}
       onIndexChange={setIndex}
@@ -41,6 +43,7 @@ const Footer = () => {
       shifting={false}
       activeColor={"orange"}
     />
+    </>
   );
 };
 

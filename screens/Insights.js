@@ -123,21 +123,30 @@ const Insights = () => {
         >
           Tips <FontAwesome name="diamond" size={14} color="black" />
         </Text>
-        <Text style={{ marginBottom: 10 }}>
-          {`\u2022 User reported increase in productivity after exersing for 15 mins `}{" "}
-            <View style={{display:'flex',flex: 1,flexDirection:'row',marginBottom:-20}}>
-            <AntDesign name="pluscircle" size={15} color="purple" style={{flex :0.5}}/>
-            <Text style={{flex:0.5,fontStyle:"italic",marginBottom:-20}}>Add to Goal</Text>
+        <View
+          style={{ marginBottom: 20, display: "flex", flexDirection: "row" }}
+        >
+          <Text>
+            {`\u2022 Our user reported less screen time when they when they`}{" "}
+            <Text style={{fontWeight:'bold'}}>Listened to Music</Text>
+            <View style={{ display: "flex", flex: 1,flexDirection:'row', marginLeft:30,marginTop: 20}}>
+              <AntDesign name="pluscircle" size={15} color="purple" />
+              <Text style={{ fontStyle: "italic",marginBottom: -50 }}>Add to Goal</Text>
             </View>
-        </Text>
-        <Text
-          style={{ marginBottom: 10 }}
-        >{`\u2022 Our user reported less screen time when they when they started reading novels`}{" "}
-             <View style={{display:'flex',flex: 1,flexDirection:'row',marginBottom:-20}}>
-            <AntDesign name="pluscircle" size={15} color="purple" style={{flex :0.5}}/>
-            <Text style={{flex:0.5,fontStyle:"italic",marginBottom:-20}}>Add to Goal</Text>
+          </Text>
+        </View>
+        <View
+          style={{ marginBottom: 20, display: "flex", flexDirection: "row" }}
+        >
+          <Text>
+            {`\u2022 Our user reported less screen time when they when they`}{" "}
+            <Text style={{fontWeight:'bold'}}>Listened to Music</Text>
+            <View style={{ display: "flex", flex: 1,flexDirection:'row', marginLeft:30,marginTop: 20}}>
+              <AntDesign name="pluscircle" size={15} color="purple" />
+              <Text style={{ fontStyle: "italic",marginBottom: -50 }}>Add to Goal</Text>
             </View>
-        </Text>
+          </Text>
+        </View>
       </View>
     </ScrollView>
   );
