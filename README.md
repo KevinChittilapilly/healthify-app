@@ -19,3 +19,15 @@ Initial Figma Designs
 ![image](https://github.com/KevinChittilapilly/healthify-app/assets/30748818/847f1ea1-4e1f-4193-9188-3fb3581cb2e2)
 
 
+Final Mobile Designs
+
+
+![image](https://github.com/KevinChittilapilly/healthify-app/assets/30748818/6fbf64e4-df15-400f-a382-0a3fedae8b26)
+![image](https://github.com/KevinChittilapilly/healthify-app/assets/30748818/7175e9df-cca2-480d-b8fa-287acf079538)
+![image](https://github.com/KevinChittilapilly/healthify-app/assets/30748818/a31a0e5b-148a-4374-8faf-bfb4b106d2bd)
+![image](https://github.com/KevinChittilapilly/healthify-app/assets/30748818/59c45dd5-bbcc-42b5-b4fd-e2cb7a80d00b)
+![image](https://github.com/KevinChittilapilly/healthify-app/assets/30748818/11dafdee-91c5-4857-8779-33dc3961ad93)
+
+
+
+
